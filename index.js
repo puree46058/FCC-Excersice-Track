@@ -117,6 +117,9 @@ if(from){
 if(to){
   dateObj["lte"]=new Date(to)
 }
+let filter ={
+  user_id:id
+}
 
 if(from|| to){
   filter.date =dateObj;
